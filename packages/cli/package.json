@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/durandj/daily-paper.git"
   },
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf build",
@@ -45,6 +45,9 @@
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "husky": {
     "hooks": {
