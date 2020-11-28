@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "@qiwi/multi-semantic-release": "^3.9.5"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
