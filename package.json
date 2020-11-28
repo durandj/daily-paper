@@ -20,5 +20,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "release": {
+    "branches": ["main"]
+  }
 }
