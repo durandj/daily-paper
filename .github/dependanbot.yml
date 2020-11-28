@@ -1,0 +1,20 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+
+    assignees:
+      - durandj
+    reviewers:
+      - durandj
+
+    labels:
+      - dependencies
+      - bot
+      - scope:global
+
+  # TODO(durandj): add pnpm dependabot when supported
+  # https://github.com/dependabot/dependabot-core/issues/1736

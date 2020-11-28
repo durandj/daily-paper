@@ -13,6 +13,9 @@
     "url": "git+ssh://git@github.com/durandj/daily-paper.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "multi-semantic-release"
+  },
+  "devDependencies": {
+    "@qiwi/multi-semantic-release": "^3.9.5"
   }
 }
