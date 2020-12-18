@@ -1,7 +1,7 @@
-import AJV, { DefinedError, JSONSchemaType, ValidateFunction } from "ajv";
+import AJV, { DefinedError, ValidateFunction } from "ajv";
 import addFormats from "ajv-formats";
 
-const defaultValidatorBuilder = createSchemaValidatorBuilder();
+import { SchemaType } from "./schema";
 
 export function createSchemaValidatorBuilder(): AJV {
     const builder = new AJV();
@@ -10,11 +10,38 @@ export function createSchemaValidatorBuilder(): AJV {
     return builder;
 }
 
+const defaultValidatorBuilder = createSchemaValidatorBuilder();
+
 export function createSchemaValidator<ConfigType>(
-    schema: JSONSchemaType<ConfigType>,
+    schema: SchemaType<ConfigType>,
     validatorBuilder: AJV = defaultValidatorBuilder,
 ): ValidateFunction<ConfigType> {
     return validatorBuilder.compile(schema);
+}
+
+export interface ValidationError {
+    readonly field: string;
+    readonly message: string;
+}
+
+export class InvalidConfig extends Error {
+    public readonly errors: ValidationError[];
+
+    constructor(errors: ValidationError[]) {
+        super(
+            `Invalid configuration provided for fields: [${errors
+                .map((err) => err.field)
+                .join(",")}]`,
+        );
+
+        this.errors = errors;
+    }
+
+    public toString(): string {
+        const errorLines = this.errors.map((err) => `${err.field} - ${err.message}`).join("\n\t");
+
+        return `${this.message}\n\t${errorLines}`;
+    }
 }
 
 export function validateConfig<ConfigType>(
@@ -33,25 +60,4 @@ export function validateConfig<ConfigType>(
     }
 
     return config;
-}
-
-export interface ValidationError {
-    readonly field: string;
-    readonly message: string;
-}
-
-export class InvalidConfig extends Error {
-    public readonly errors: ValidationError[];
-
-    constructor(errors: ValidationError[]) {
-        super("Invalid configuration provided");
-
-        this.errors = errors;
-    }
-
-    public toString(): string {
-        const errorLines = this.errors.map((err) => `${err.field} - ${err.message}`).join("\n\t");
-
-        return `${this.message}\n\t${errorLines}`;
-    }
 }

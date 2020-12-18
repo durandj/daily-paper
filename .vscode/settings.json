@@ -1,5 +1,11 @@
 {
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "cSpell.words": [
+        "earljs",
+        "openweathermap",
+        "typestrict"
+    ],
+    "npm.packageManager": "pnpm"
 }

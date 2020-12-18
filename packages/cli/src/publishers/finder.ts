@@ -9,7 +9,7 @@ class UnknownPublisher extends Error {
     }
 }
 
-export function findPublisher(publisherConfig: PublisherConfig): Publisher {
+export default function findPublisher(publisherConfig: PublisherConfig): Publisher {
     switch (publisherConfig.type) {
         case "file":
             return filePublisher;

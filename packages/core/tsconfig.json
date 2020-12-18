@@ -2,11 +2,12 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "./build",
+    "rootDir": "./src",
     "baseUrl": "./",
     "paths": {
-      "@daily-paper/cli/*": [
+      "@daily-paper/core/*": [
         "./src/*",
       ],
     },
-  }
+  },
 }

@@ -1,5 +1,13 @@
 import { JSONSchemaType } from "ajv";
 
+export type SchemaType<Type> = JSONSchemaType<Type>;
+
+export interface ReporterConfig {
+    readonly name: string;
+    readonly type: string;
+    readonly options?: Record<string, unknown>;
+}
+
 export interface PublisherConfig {
     readonly name: string;
     readonly type: string;
@@ -14,10 +22,10 @@ export interface Configuration {
 
     readonly publishers: PublisherConfig[];
 
-    readonly reporters: Record<string, unknown>[];
+    readonly reporters: ReporterConfig[];
 }
 
-export const schema: JSONSchemaType<Configuration> = {
+export const schema: SchemaType<Configuration> = {
     type: "object",
     properties: {
         paper: {
@@ -38,6 +46,34 @@ export const schema: JSONSchemaType<Configuration> = {
             nullable: true,
             additionalProperties: true,
             required: [],
+        },
+
+        reporters: {
+            type: "array",
+            items: {
+                type: "object",
+                properties: {
+                    name: {
+                        type: "string",
+                        minLength: 1,
+                        nullable: false,
+                    },
+                    type: {
+                        type: "string",
+                        minLength: 1,
+                        nullable: false,
+                    },
+                    options: {
+                        type: "object",
+                        properties: {},
+                        nullable: true,
+                        additionalProperties: true,
+                        required: [],
+                    },
+                },
+                additionalProperties: true,
+                required: [],
+            },
         },
 
         publishers: {
@@ -64,16 +100,6 @@ export const schema: JSONSchemaType<Configuration> = {
                     },
                 },
                 nullable: false,
-                additionalProperties: true,
-                required: [],
-            },
-        },
-
-        reporters: {
-            type: "array",
-            items: {
-                type: "object",
-                properties: {},
                 additionalProperties: true,
                 required: [],
             },

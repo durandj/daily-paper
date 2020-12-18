@@ -1,0 +1,1312 @@
+{
+    "location": {
+        "latitude": 51,
+        "longitude": 175
+    },
+    "today": {
+        "byTheHour": [
+            {
+                "time": "2020-12-16T12:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -10.14664431459768
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 43.2592401026688
+                },
+                "humidity": 44,
+                "chanceOfRain": 0,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T13:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -29.45030943779863
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 115.0440289170925
+                },
+                "humidity": 86,
+                "chanceOfRain": 61,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "heavy shower rain and drizzle"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T14:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 93.23341204807176
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -47.277673922159366
+                },
+                "humidity": 68,
+                "chanceOfRain": 21,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T15:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 47.90964893746525
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 64.40100147392914
+                },
+                "humidity": 87,
+                "chanceOfRain": 46,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T16:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 16.784746874766228
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 114.18638734676935
+                },
+                "humidity": 104,
+                "chanceOfRain": 49,
+                "conditions": [
+                    {
+                        "weather": "clouds",
+                        "description": "few clouds: 11-25%"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T17:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 45.27818604921639
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -7.830668302534804
+                },
+                "humidity": 26,
+                "chanceOfRain": 78,
+                "conditions": [
+                    {
+                        "weather": "rain",
+                        "description": "heavy intensity rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T18:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -19.269965876877293
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -4.97399573889804
+                },
+                "humidity": 99,
+                "chanceOfRain": 20,
+                "conditions": [
+                    {
+                        "weather": "smoke",
+                        "description": "smoke"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T19:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 82.98559903722986
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 0.06857075897540454
+                },
+                "humidity": 63,
+                "chanceOfRain": 84,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T20:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 116.94901270285371
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 65.4033981026877
+                },
+                "humidity": 47,
+                "chanceOfRain": 57,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T21:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 34.98794056136998
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 78.85011287442387
+                },
+                "humidity": 27,
+                "chanceOfRain": 40,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T22:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 9.34769105739987
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 101.75161153092105
+                },
+                "humidity": 102,
+                "chanceOfRain": 3,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-16T23:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -2.117275027706377
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 71.38949503436993
+                },
+                "humidity": 104,
+                "chanceOfRain": 20,
+                "conditions": [
+                    {
+                        "weather": "snow",
+                        "description": "heavy shower snow"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T00:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 18.8951089814729
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 52.47906760783913
+                },
+                "humidity": 68,
+                "chanceOfRain": 75,
+                "conditions": [
+                    {
+                        "weather": "rain",
+                        "description": "heavy intensity rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T01:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 39.86384225712925
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 19.280487574557952
+                },
+                "humidity": 54,
+                "chanceOfRain": 82,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T02:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -42.567936400903996
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 26.32726948157014
+                },
+                "humidity": 6,
+                "chanceOfRain": 63,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "shower drizzle"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T03:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 74.14368391226235
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 7.880981489773966
+                },
+                "humidity": 97,
+                "chanceOfRain": 98,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T04:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 18.74431191678012
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 101.40278295002562
+                },
+                "humidity": 94,
+                "chanceOfRain": 58,
+                "conditions": [
+                    {
+                        "weather": "sand",
+                        "description": "sand"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T05:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 30.979087556302346
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 55.10035814057305
+                },
+                "humidity": 90,
+                "chanceOfRain": 33,
+                "conditions": [
+                    {
+                        "weather": "clouds",
+                        "description": "broken clouds: 51-84%"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T06:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 29.681831564232965
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -8.28706038034941
+                },
+                "humidity": 8,
+                "chanceOfRain": 87,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "light intensity drizzle rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T07:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 53.182282326341166
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -42.89300969051623
+                },
+                "humidity": 20,
+                "chanceOfRain": 51,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T08:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 95.40714704450585
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 55.800369142405145
+                },
+                "humidity": 17,
+                "chanceOfRain": 60,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "heavy intensity drizzle"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T09:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -17.77720450013028
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 83.02911373877183
+                },
+                "humidity": 81,
+                "chanceOfRain": 89,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T10:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -46.837559768080524
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 114.80404515077055
+                },
+                "humidity": 39,
+                "chanceOfRain": 36,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "light intensity drizzle rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T11:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -29.629048271288386
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 9.604320507413
+                },
+                "humidity": 83,
+                "chanceOfRain": 94,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "heavy intensity drizzle rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T12:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 31.844137843377638
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 91.18457388894817
+                },
+                "humidity": 35,
+                "chanceOfRain": 49,
+                "conditions": [
+                    {
+                        "weather": "mist",
+                        "description": "mist"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T13:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 6.312418515639578
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -29.227234895586975
+                },
+                "humidity": 101,
+                "chanceOfRain": 53,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T14:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 89.74263353212416
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 88.34861102985133
+                },
+                "humidity": 109,
+                "chanceOfRain": 71,
+                "conditions": [
+                    {
+                        "weather": "smoke",
+                        "description": "smoke"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T15:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 53.23150256615645
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 116.21388054570951
+                },
+                "humidity": 24,
+                "chanceOfRain": 38,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T16:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 117.69205808680232
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 16.363381338333824
+                },
+                "humidity": 74,
+                "chanceOfRain": 88,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "light intensity drizzle rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T17:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 32.31332448332168
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 7.9724672072458915
+                },
+                "humidity": 4,
+                "chanceOfRain": 14,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T18:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 7.212199371252169
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 67.17770014623237
+                },
+                "humidity": 76,
+                "chanceOfRain": 51,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T19:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -5.9645282507907424
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 2.8853011758803646
+                },
+                "humidity": 28,
+                "chanceOfRain": 17,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T20:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -5.524377164902496
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -33.11710809435479
+                },
+                "humidity": 25,
+                "chanceOfRain": 40,
+                "conditions": [
+                    {
+                        "weather": "dust",
+                        "description": "dust"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T21:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -15.146640808253828
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -5.609799600662548
+                },
+                "humidity": 2,
+                "chanceOfRain": 44,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T22:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -20.21729364165347
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 8.744689998202219
+                },
+                "humidity": 39,
+                "chanceOfRain": 45,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-17T23:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 14.276445028901648
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 33.139644066022484
+                },
+                "humidity": 21,
+                "chanceOfRain": 32,
+                "conditions": [
+                    {
+                        "weather": "clouds",
+                        "description": "scattered clouds: 25-50%"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T00:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -10.313201516645577
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 15.02433321499204
+                },
+                "humidity": 46,
+                "chanceOfRain": 18,
+                "conditions": [
+                    {
+                        "weather": "drizzle",
+                        "description": "light intensity drizzle"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T01:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 5.557289398522201
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 1.373672726238155
+                },
+                "humidity": 80,
+                "chanceOfRain": 74,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T02:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 115.5257038864184
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -31.245789295069194
+                },
+                "humidity": 101,
+                "chanceOfRain": 97,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T03:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -30.352547825462196
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -24.147009284703483
+                },
+                "humidity": 86,
+                "chanceOfRain": 65,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T04:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 77.18838743185925
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -30.509113366990768
+                },
+                "humidity": 10,
+                "chanceOfRain": 44,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T05:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 34.86682415317112
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": -46.44288099546626
+                },
+                "humidity": 51,
+                "chanceOfRain": 56,
+                "conditions": [
+                    {
+                        "weather": "clouds",
+                        "description": "scattered clouds: 25-50%"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T06:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 83.73123618798058
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 54.18638164040989
+                },
+                "humidity": 93,
+                "chanceOfRain": 43,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T07:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 13.856062335185555
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 18.70319155981136
+                },
+                "humidity": 105,
+                "chanceOfRain": 79,
+                "conditions": [
+                    {
+                        "weather": "mist",
+                        "description": "mist"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T08:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 99.82131527197353
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 119.15655960292617
+                },
+                "humidity": 51,
+                "chanceOfRain": 52,
+                "conditions": [
+                    {
+                        "weather": "thunderstorm",
+                        "description": "thunderstorm with light rain"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T09:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 24.12696899391223
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 74.37368641289547
+                },
+                "humidity": 63,
+                "chanceOfRain": 51,
+                "conditions": [
+                    {
+                        "weather": "clear",
+                        "description": "clear sky"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T10:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": 55.13139154875279
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 6.8744323744583085
+                },
+                "humidity": 41,
+                "chanceOfRain": 60,
+                "conditions": [
+                    {
+                        "weather": "clouds",
+                        "description": "few clouds: 11-25%"
+                    }
+                ]
+            },
+            {
+                "time": "2020-12-18T11:03:15.000Z",
+                "temperature": {
+                    "unit": "imperial",
+                    "value": -37.4270433827477
+                },
+                "feelsLike": {
+                    "unit": "imperial",
+                    "value": 38.057193855613846
+                },
+                "humidity": 87,
+                "chanceOfRain": 73,
+                "conditions": [
+                    {
+                        "weather": "snow",
+                        "description": "light shower snow"
+                    }
+                ]
+            }
+        ],
+        "sunrise": "2020-12-16T18:03:15.000Z",
+        "sunset": "2020-12-17T08:03:15.000Z",
+        "alerts": []
+    },
+    "upcoming": [
+        {
+            "date": "2020-12-16T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 71.02944209731602
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 21.459784816478034
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 25.20107922667482
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 65.09774352877028
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 54.4177333563824
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": 49.20667047506751
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 94.061453171463
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 12.432130934052822
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 48.888995888132825
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 103.09729450624926
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "drizzle",
+                    "description": "heavy shower rain and drizzle"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-17T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 49.056349157321065
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 39.1642371877535
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 30.055186944176583
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 38.6899461583658
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 26.340184879241164
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": 37.65222637397376
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 47.718502902240274
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 110.3049445044557
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 109.80512828183498
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": -21.30977290466341
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "clouds",
+                    "description": "broken clouds: 51-84%"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-18T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": -10.589057104424512
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 116.03421281888285
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": -0.1560268579144548
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 71.93328909568363
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 100.11989477362172
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": -13.79020502973571
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 100.11586383088058
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 118.97561890443174
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 118.95192266950173
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": -36.43150406210381
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "clear",
+                    "description": "clear sky"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-19T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 112.3833173125993
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 107.31109635895689
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": -37.25694209086252
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 15.495608396476825
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 82.54942666143532
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": 83.2556155632328
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 90.28161956465493
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": -43.85563701322381
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": -48.96580981552446
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 31.184061297649777
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "drizzle",
+                    "description": "heavy intensity  drizzle rain"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-20T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 23.622316007613932
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 41.661694583953135
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 19.405566833185688
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": -4.751163638838754
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": -49.32894226173454
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": 28.315564681290354
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 15.851886962878297
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 21.820513201107858
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": -26.66515477416847
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 92.39653013667458
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "clear",
+                    "description": "clear sky"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-21T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": -21.271851812617903
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 81.84499612056925
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": -15.907542963557312
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 2.327604797397683
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 65.29701687576964
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": -48.41302519559878
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 110.25951896426258
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": 50.52998741012367
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 3.841615511503072
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 40.19233031253148
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "clear",
+                    "description": "clear sky"
+                }
+            ]
+        },
+        {
+            "date": "2020-12-22T12:03:15.000Z",
+            "sunrise": "2020-12-16T18:03:15.000Z",
+            "sunset": "2020-12-17T08:03:15.000Z",
+            "temperatures": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": 59.844869371077095
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": -39.05444434571176
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 17.997580817573507
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 65.24848172769794
+                },
+                "minimum": {
+                    "unit": "imperial",
+                    "value": 31.262149573989802
+                },
+                "maximum": {
+                    "unit": "imperial",
+                    "value": 95.194202535231
+                }
+            },
+            "feelsLike": {
+                "morning": {
+                    "unit": "imperial",
+                    "value": -17.406350742566367
+                },
+                "day": {
+                    "unit": "imperial",
+                    "value": -38.33971307516218
+                },
+                "evening": {
+                    "unit": "imperial",
+                    "value": 43.44267419990386
+                },
+                "night": {
+                    "unit": "imperial",
+                    "value": 68.01403040762585
+                }
+            },
+            "conditions": [
+                {
+                    "weather": "clear",
+                    "description": "clear sky"
+                }
+            ]
+        }
+    ]
+}

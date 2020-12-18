@@ -2,8 +2,7 @@ import fs from "fs";
 
 import yaml from "js-yaml";
 
-import { createSchemaValidator, validateConfig } from "./validation";
-import { Configuration, schema } from "./schema";
+import { Configuration, createSchemaValidator, schema, validateConfig } from "@daily-paper/core";
 
 export default function loadConfigFromFile(filePath: string): Configuration {
     const validator = createSchemaValidator(schema);
