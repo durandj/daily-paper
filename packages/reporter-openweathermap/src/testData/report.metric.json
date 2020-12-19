@@ -1,0 +1,1312 @@
+{
+  "location": {
+    "latitude": 51,
+    "longitude": 175
+  },
+  "today": {
+    "byTheHour": [
+      {
+        "time": "2020-12-10T02:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 103.98524490387388
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 102.2812876506207
+        },
+        "humidity": 103,
+        "chanceOfRain": 85,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T03:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 91.63954167356329
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -20.70386324260351
+        },
+        "humidity": 3,
+        "chanceOfRain": 28,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T04:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -21.030281234320046
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 95.51690323888201
+        },
+        "humidity": 22,
+        "chanceOfRain": 8,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "very heavy rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T05:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 111.39762675325684
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -47.940518682543626
+        },
+        "humidity": 96,
+        "chanceOfRain": 94,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T06:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 65.50695175643955
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 101.51141372363071
+        },
+        "humidity": 71,
+        "chanceOfRain": 13,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T07:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 46.838263387324844
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 86.01425985404234
+        },
+        "humidity": 101,
+        "chanceOfRain": 52,
+        "conditions": [
+          {
+            "weather": "thunderstorm",
+            "description": "thunderstorm with heavy rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T08:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 48.22990520935291
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 13.018732153264054
+        },
+        "humidity": 10,
+        "chanceOfRain": 39,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T09:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -47.9966466529176
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -0.5402890957810342
+        },
+        "humidity": 107,
+        "chanceOfRain": 51,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "rain and snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T10:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 89.40964644528762
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 13.993715797952085
+        },
+        "humidity": 80,
+        "chanceOfRain": 81,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T11:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 90.9952538877088
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 49.107303876997975
+        },
+        "humidity": 47,
+        "chanceOfRain": 89,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T12:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 7.073374810810627
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 103.14105713181743
+        },
+        "humidity": 83,
+        "chanceOfRain": 86,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "heavy shower snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T13:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 59.94556648547811
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 99.29013744544241
+        },
+        "humidity": 2,
+        "chanceOfRain": 84,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "light snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T14:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -14.219598764452698
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 109.74827794969153
+        },
+        "humidity": 18,
+        "chanceOfRain": 41,
+        "conditions": [
+          {
+            "weather": "thunderstorm",
+            "description": "thunderstorm with drizzle"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T15:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 22.518508782791713
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 4.472885855405693
+        },
+        "humidity": 89,
+        "chanceOfRain": 32,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T16:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 8.791796721108597
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 53.06965795380205
+        },
+        "humidity": 26,
+        "chanceOfRain": 33,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "sleet"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T17:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -10.337874561142975
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 74.33815997435663
+        },
+        "humidity": 104,
+        "chanceOfRain": 19,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T18:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 84.81871298118844
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -47.47935354302901
+        },
+        "humidity": 41,
+        "chanceOfRain": 75,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T19:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 113.28532686658403
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 88.24700511173413
+        },
+        "humidity": 55,
+        "chanceOfRain": 56,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T20:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 77.68427118412772
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 115.82992057973911
+        },
+        "humidity": 22,
+        "chanceOfRain": 31,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "ragged shower rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T21:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 49.407927173139626
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 59.21014654364811
+        },
+        "humidity": 56,
+        "chanceOfRain": 2,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T22:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 12.63847614743127
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -26.919083189019094
+        },
+        "humidity": 19,
+        "chanceOfRain": 12,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-10T23:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 61.74759632285888
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 28.734949447643416
+        },
+        "humidity": 54,
+        "chanceOfRain": 50,
+        "conditions": [
+          {
+            "weather": "drizzle",
+            "description": "heavy intensity drizzle rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T00:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 28.22075099566223
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 26.15189122672585
+        },
+        "humidity": 15,
+        "chanceOfRain": 86,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T01:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 27.453977199152362
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -0.7686219232543294
+        },
+        "humidity": 84,
+        "chanceOfRain": 14,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T02:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 60.580322527272116
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 92.48964688288203
+        },
+        "humidity": 60,
+        "chanceOfRain": 14,
+        "conditions": [
+          {
+            "weather": "thunderstorm",
+            "description": "thunderstorm with light rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T03:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 68.00032785279059
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 89.80395005418393
+        },
+        "humidity": 94,
+        "chanceOfRain": 93,
+        "conditions": [
+          {
+            "weather": "smoke",
+            "description": "smoke"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T04:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 108.85834074255854
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -42.581741095408844
+        },
+        "humidity": 62,
+        "chanceOfRain": 89,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T05:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 71.48984351520168
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -1.4028450529735181
+        },
+        "humidity": 41,
+        "chanceOfRain": 60,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "rain and snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T06:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 113.60136033692694
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -35.38484347504347
+        },
+        "humidity": 34,
+        "chanceOfRain": 72,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T07:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 50.37137224616396
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -7.790190247183951
+        },
+        "humidity": 60,
+        "chanceOfRain": 25,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "light intensity shower rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T08:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 52.11623548155181
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 6.330948248972035
+        },
+        "humidity": 25,
+        "chanceOfRain": 12,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T09:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -0.6802817117359723
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 3.6035728237144156
+        },
+        "humidity": 85,
+        "chanceOfRain": 27,
+        "conditions": [
+          {
+            "weather": "thunderstorm",
+            "description": "ragged thunderstorm"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T10:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 73.78017867875391
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 27.4374293165873
+        },
+        "humidity": 49,
+        "chanceOfRain": 10,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "light rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T11:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 7.6779431984918105
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 14.410342271640374
+        },
+        "humidity": 29,
+        "chanceOfRain": 78,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T12:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -5.882034954997614
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 108.32016786658826
+        },
+        "humidity": 106,
+        "chanceOfRain": 36,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T13:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -1.6619541969233396
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 71.92264815552477
+        },
+        "humidity": 32,
+        "chanceOfRain": 61,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "freezing rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T14:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 18.04003857870771
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 110.54107918653702
+        },
+        "humidity": 11,
+        "chanceOfRain": 6,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T15:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 73.31812262597641
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -32.86375495201871
+        },
+        "humidity": 45,
+        "chanceOfRain": 49,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T16:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 18.057226505299013
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 84.7192845275473
+        },
+        "humidity": 81,
+        "chanceOfRain": 58,
+        "conditions": [
+          {
+            "weather": "tornado",
+            "description": "tornado"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T17:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 92.24310187248003
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 69.89375111337603
+        },
+        "humidity": 34,
+        "chanceOfRain": 33,
+        "conditions": [
+          {
+            "weather": "rain",
+            "description": "light rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T18:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -31.579726068509714
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -8.571208640694401
+        },
+        "humidity": 5,
+        "chanceOfRain": 13,
+        "conditions": [
+          {
+            "weather": "drizzle",
+            "description": "heavy intensity drizzle rain"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T19:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 65.40155221140326
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 67.51858155796991
+        },
+        "humidity": 68,
+        "chanceOfRain": 60,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T20:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 63.95898500704301
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 37.17637429398869
+        },
+        "humidity": 50,
+        "chanceOfRain": 96,
+        "conditions": [
+          {
+            "weather": "clouds",
+            "description": "scattered clouds: 25-50%"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T21:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 26.556433209120797
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": -25.462829155835767
+        },
+        "humidity": 30,
+        "chanceOfRain": 4,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T22:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 81.55680350364742
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 115.34747229020311
+        },
+        "humidity": 12,
+        "chanceOfRain": 77,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-11T23:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -4.7729422383262445
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 91.97952884182044
+        },
+        "humidity": 27,
+        "chanceOfRain": 71,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-12T00:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": -33.79132839939937
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 97.0484535970401
+        },
+        "humidity": 30,
+        "chanceOfRain": 39,
+        "conditions": [
+          {
+            "weather": "snow",
+            "description": "light snow"
+          }
+        ]
+      },
+      {
+        "time": "2020-12-12T01:29:52.000Z",
+        "temperature": {
+          "unit": "metric",
+          "value": 48.38061132705789
+        },
+        "feelsLike": {
+          "unit": "metric",
+          "value": 98.18039048126974
+        },
+        "humidity": 5,
+        "chanceOfRain": 32,
+        "conditions": [
+          {
+            "weather": "clear",
+            "description": "clear sky"
+          }
+        ]
+      }
+    ],
+    "sunrise": "2020-12-10T08:29:52.000Z",
+    "sunset": "2020-12-10T22:29:52.000Z",
+    "alerts": []
+  },
+  "upcoming": [
+    {
+      "date": "2020-12-10T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": -10.626162495187643
+        },
+        "day": {
+          "unit": "metric",
+          "value": 98.43215026703135
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 34.01245027354864
+        },
+        "night": {
+          "unit": "metric",
+          "value": 45.8977786097155
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 54.94233190921284
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": 85.11117945729976
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 52.65228844340356
+        },
+        "day": {
+          "unit": "metric",
+          "value": 57.06674217463936
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 89.40977520441302
+        },
+        "night": {
+          "unit": "metric",
+          "value": -38.86071279029329
+        }
+      },
+      "conditions": [
+        {
+          "weather": "dust",
+          "description": "sand/dust whirls"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-11T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": 29.18668503027307
+        },
+        "day": {
+          "unit": "metric",
+          "value": 42.26884206136317
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 17.36705320269833
+        },
+        "night": {
+          "unit": "metric",
+          "value": -14.269800786005206
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 104.8176101762125
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": -20.201027452103524
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 45.2072512580402
+        },
+        "day": {
+          "unit": "metric",
+          "value": 58.63509655692678
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 95.36501925946581
+        },
+        "night": {
+          "unit": "metric",
+          "value": 10.568023056640861
+        }
+      },
+      "conditions": [
+        {
+          "weather": "thunderstorm",
+          "description": "thunderstorm with light drizzle"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-12T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": 105.22959621995585
+        },
+        "day": {
+          "unit": "metric",
+          "value": 50.48844233390949
+        },
+        "evening": {
+          "unit": "metric",
+          "value": -37.87744614309392
+        },
+        "night": {
+          "unit": "metric",
+          "value": -26.520185420246946
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 9.247949022366825
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": 49.069802630975474
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 97.96995907586614
+        },
+        "day": {
+          "unit": "metric",
+          "value": 54.447150537660676
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 63.10853901684955
+        },
+        "night": {
+          "unit": "metric",
+          "value": 47.118910510689005
+        }
+      },
+      "conditions": [
+        {
+          "weather": "clear",
+          "description": "clear sky"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-13T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": 26.706798476171116
+        },
+        "day": {
+          "unit": "metric",
+          "value": 101.88746867280483
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 15.157200430900772
+        },
+        "night": {
+          "unit": "metric",
+          "value": 42.8235684540945
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 61.442250229917875
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": 9.436095725651569
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 117.17528270936492
+        },
+        "day": {
+          "unit": "metric",
+          "value": -30.261412002311502
+        },
+        "evening": {
+          "unit": "metric",
+          "value": -5.76006540025228
+        },
+        "night": {
+          "unit": "metric",
+          "value": 116.26101373249529
+        }
+      },
+      "conditions": [
+        {
+          "weather": "clear",
+          "description": "clear sky"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-14T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": -46.855501453607594
+        },
+        "day": {
+          "unit": "metric",
+          "value": 5.820045075978619
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 49.87790966485413
+        },
+        "night": {
+          "unit": "metric",
+          "value": -14.221606924414424
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 10.776228272203085
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": -24.17929552032702
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 44.75923322693005
+        },
+        "day": {
+          "unit": "metric",
+          "value": 59.440066621034575
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 9.717219680277687
+        },
+        "night": {
+          "unit": "metric",
+          "value": -19.435675807743024
+        }
+      },
+      "conditions": [
+        {
+          "weather": "clear",
+          "description": "clear sky"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-15T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": 92.26070243679357
+        },
+        "day": {
+          "unit": "metric",
+          "value": 35.852701015564094
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 74.08101294361082
+        },
+        "night": {
+          "unit": "metric",
+          "value": 100.92189955564277
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": -17.48567342711931
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": 42.58618343093275
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": 44.83878080701784
+        },
+        "day": {
+          "unit": "metric",
+          "value": 70.74038948549537
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 102.06627711549959
+        },
+        "night": {
+          "unit": "metric",
+          "value": 9.691048365834718
+        }
+      },
+      "conditions": [
+        {
+          "weather": "snow",
+          "description": "sleet"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-16T02:29:52.000Z",
+      "sunrise": "2020-12-10T08:29:52.000Z",
+      "sunset": "2020-12-10T22:29:52.000Z",
+      "temperatures": {
+        "morning": {
+          "unit": "metric",
+          "value": 51.26275403986675
+        },
+        "day": {
+          "unit": "metric",
+          "value": -13.139257543242266
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 56.272496056928645
+        },
+        "night": {
+          "unit": "metric",
+          "value": 101.10486948901254
+        },
+        "minimum": {
+          "unit": "metric",
+          "value": 110.35110579186016
+        },
+        "maximum": {
+          "unit": "metric",
+          "value": 2.334487587394946
+        }
+      },
+      "feelsLike": {
+        "morning": {
+          "unit": "metric",
+          "value": -48.94297286804886
+        },
+        "day": {
+          "unit": "metric",
+          "value": -21.815394499604352
+        },
+        "evening": {
+          "unit": "metric",
+          "value": 8.079883184146418
+        },
+        "night": {
+          "unit": "metric",
+          "value": 63.65380313351676
+        }
+      },
+      "conditions": [
+        {
+          "weather": "thunderstorm",
+          "description": "thunderstorm"
+        }
+      ]
+    }
+  ]
+}

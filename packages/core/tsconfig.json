@@ -5,14 +5,9 @@
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
-      "@daily-paper/cli/*": [
+      "@daily-paper/core/*": [
         "./src/*",
       ],
     },
   },
-  "references": [
-    {
-      "path": "../core",
-    },
-  ],
 }

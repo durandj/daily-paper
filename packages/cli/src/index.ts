@@ -2,9 +2,7 @@ import { program } from "commander";
 import winston from "winston";
 
 import loadConfigurationFromFile from "./config";
-import { Renderer } from "./renderers";
-// import htmlRenderer from "./renderers/htmlRenderer";
-import pdfRenderer from "./renderers/pdfRenderer";
+import { Renderer, pdfRenderer } from "./renderers";
 import { findPublisher } from "./publishers";
 
 const defaultConfigFilePath = "daily-paper.yml";
@@ -57,4 +55,5 @@ async function main() {
     }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
 main();

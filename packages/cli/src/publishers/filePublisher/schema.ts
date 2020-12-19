@@ -1,6 +1,9 @@
-import { JSONSchemaType } from "ajv";
-
-import { createSchemaValidator, PublisherConfig, validateConfig } from "@daily-paper/cli/config";
+import {
+    createSchemaValidator,
+    PublisherConfig,
+    SchemaType,
+    validateConfig,
+} from "@daily-paper/core";
 
 export interface FilePublisherConfig extends PublisherConfig {
     name: string;
@@ -10,7 +13,7 @@ export interface FilePublisherConfig extends PublisherConfig {
     };
 }
 
-const schema: JSONSchemaType<FilePublisherConfig> = {
+const schema: SchemaType<FilePublisherConfig> = {
     type: "object",
     properties: {
         name: {
@@ -41,5 +44,6 @@ const schema: JSONSchemaType<FilePublisherConfig> = {
 
 const schemaValidator = createSchemaValidator(schema);
 
-export const validatePublisherConfig = (config: unknown): FilePublisherConfig =>
-    validateConfig(schemaValidator, config);
+export function validatePublisherConfig(config: unknown): FilePublisherConfig {
+    return validateConfig(schemaValidator, config);
+}

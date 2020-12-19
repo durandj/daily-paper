@@ -2,7 +2,8 @@ import fs from "fs";
 
 import { Logger } from "winston";
 
-import { Configuration, PublisherConfig } from "@daily-paper/cli/config";
+import { Configuration, PublisherConfig } from "@daily-paper/core";
+
 import { Publisher } from "@daily-paper/cli/publishers/publisher";
 
 import { validatePublisherConfig } from "./schema";

@@ -1,6 +1,6 @@
 import pug from "pug";
 
-import { Configuration } from "@daily-paper/cli/config";
+import { Configuration } from "@daily-paper/core";
 
 import { RenderContext, Renderer } from "./renderer";
 

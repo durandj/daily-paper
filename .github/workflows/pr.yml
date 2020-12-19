@@ -1,15 +1,13 @@
-name: Deploy
+name: PR
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
   workflow_dispatch:
 
 jobs:
-  release:
-    name: Build and release packages
+  test:
+    name: Test
     runs-on: ubuntu-latest
 
     steps:
@@ -39,11 +37,3 @@ jobs:
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
         run: |
           pnpm run --recursive test
-
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          pnpm run --recursive build
-          pnpm run publish

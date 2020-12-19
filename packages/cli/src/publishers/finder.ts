@@ -1,4 +1,4 @@
-import { PublisherConfig } from "@daily-paper/cli/config";
+import { PublisherConfig } from "@daily-paper/core";
 
 import filePublisher from "./filePublisher";
 import { Publisher } from "./publisher";
@@ -9,7 +9,7 @@ class UnknownPublisher extends Error {
     }
 }
 
-export function findPublisher(publisherConfig: PublisherConfig): Publisher {
+export default function findPublisher(publisherConfig: PublisherConfig): Publisher {
     switch (publisherConfig.type) {
         case "file":
             return filePublisher;

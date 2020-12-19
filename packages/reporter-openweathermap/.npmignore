@@ -1,0 +1,15 @@
+/src
+
+.env
+.eslintrc.js
+.mocharc.js
+.prettierrc.js
+tsconfig.json
+build/testUtils.{d.ts,js}
+build/**/mocks.{d.ts,js}
+
+*.md
+*.spec.{d.ts,js}
+*.test.{d.ts,js}
+*.tgz
+*.tsbuildinfo
