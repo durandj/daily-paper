@@ -1,6 +1,7 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "@daily-paper/tsconfig",
   "compilerOptions": {
+    "rootDir": "./src",
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
@@ -8,5 +9,10 @@
         "./src/*",
       ],
     },
-  }
+  },
+  "references": [
+    {
+      "path": "../core",
+    },
+  ],
 }

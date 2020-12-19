@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "@daily-paper/tsconfig",
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./build",
