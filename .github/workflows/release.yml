@@ -30,8 +30,12 @@ jobs:
         run: |
           pnpm run --recursive lint
 
+      - name: Build
+        run: |
+          pnpm run --recursive build
+
       - name: Tests
-        with:
+        env:
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
         run: |
           pnpm run --recursive test
