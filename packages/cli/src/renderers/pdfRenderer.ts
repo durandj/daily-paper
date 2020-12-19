@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-import { Configuration } from "@daily-paper/cli/config";
+import { Configuration } from "@daily-paper/core";
 
 import htmlRenderer from "./htmlRenderer";
 import { RenderContext, Renderer } from "./renderer";

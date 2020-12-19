@@ -1,6 +1,6 @@
 import { Logger } from "winston";
 
-import { Configuration, PublisherConfig } from "@daily-paper/cli/config";
+import { Configuration, PublisherConfig } from "@daily-paper/core";
 
 // TODO(durandj): move non-essential arguments to an object
 export type Publisher = (

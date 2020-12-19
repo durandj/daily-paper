@@ -1,4 +1,4 @@
-import { PublisherConfig } from "@daily-paper/cli/config";
+import { PublisherConfig } from "@daily-paper/core";
 
 import filePublisher from "./filePublisher";
 import { Publisher } from "./publisher";

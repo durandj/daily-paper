@@ -1,6 +1,6 @@
 import { Logger } from "winston";
 
-import { Configuration } from "@daily-paper/cli/config";
+import { Configuration } from "@daily-paper/core";
 
 export interface RenderContext {
     logger: Logger;
