@@ -21,7 +21,6 @@ function getRequiredEnvVar(name: string): string {
 }
 
 describe("client", (): void => {
-    // TODO(durandj): Update CI to handle this
     const apiKey = getRequiredEnvVar("OPENWEATHERMAP_API_KEY");
 
     describe("getForecastByCoordinate", (): void => {
