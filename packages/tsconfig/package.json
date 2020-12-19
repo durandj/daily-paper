@@ -15,6 +15,9 @@
   "main": "tsconfig.json",
   "scripts": {
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "tsconfig.json"
   ]
