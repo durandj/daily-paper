@@ -78,6 +78,7 @@ async function main() {
             ),
         );
         // TODO(durandj): we need to do something with this data yet
+        // eslint-disable-next-line no-console
         console.log(dataFromReporters);
 
         logger.debug("Rendering paper");
