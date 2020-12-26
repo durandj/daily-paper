@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@daily-paper/eslint-config": "workspace:^0.0.0",
+    "@daily-paper/mocharc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "@types/chai": "^4.2.14",
     "@types/js-yaml": "^3.12.5",

@@ -1,10 +1,1 @@
-module.exports = {
-    require: [
-        "ts-node/register/transpile-only",
-        "tsconfig-paths/register",
-    ],
-    extension: ["ts"],
-    watchExtensions: ["ts"],
-    parallel: true,
-    fullTrace: true,
-};
+module.exports = require("@daily-paper/mocharc");
