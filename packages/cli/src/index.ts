@@ -1,12 +1,24 @@
 import { program } from "commander";
 import winston from "winston";
 
+import { PaperError, Reporter, ReporterContext } from "@daily-paper/core";
+
 import loadConfigurationFromFile from "./config";
 import { Renderer, pdfRenderer } from "./renderers";
+import { loadPlugin, isFunction } from "./plugins";
 import { findPublisher } from "./publishers";
 
 const defaultConfigFilePath = "daily-paper.yml";
 const defaultLogLevel = "info";
+
+interface Report {
+    reporter: {
+        name: string;
+        type: string;
+    };
+
+    data: unknown;
+}
 
 async function main() {
     program
@@ -33,6 +45,40 @@ async function main() {
         const configFile: string = program.config;
         logger.debug(`Loading configuration from '${configFile}'`);
         const config = loadConfigurationFromFile(configFile);
+
+        logger.debug("Collecting data from reporters");
+        // TODO(durandj): we should do something else with failed reporters
+        const dataFromReporters = await Promise.all(
+            config.reporters.map(
+                async (reporterConfig): Promise<Report> => {
+                    const plugin = await loadPlugin({ pluginID: reporterConfig.type });
+                    if (!isFunction(plugin)) {
+                        throw new PaperError(
+                            `Plugin '${reporterConfig.name}' was expected to be a function to be used as a reporter`,
+                            {
+                                reporter: reporterConfig.name,
+                                reporterType: reporterConfig.type,
+                            },
+                        );
+                    }
+
+                    const reporterPlugin = plugin as Reporter<ReporterContext>;
+                    return {
+                        reporter: {
+                            name: reporterConfig.name,
+                            type: reporterConfig.type,
+                        },
+                        data: reporterPlugin({
+                            globalConfig: config,
+                            reporterConfig,
+                            logger,
+                        }),
+                    };
+                },
+            ),
+        );
+        // TODO(durandj): we need to do something with this data yet
+        console.log(dataFromReporters);
 
         logger.debug("Rendering paper");
         // const renderer: Renderer = htmlRenderer;

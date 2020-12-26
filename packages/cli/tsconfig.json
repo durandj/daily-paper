@@ -14,5 +14,8 @@
     {
       "path": "../core",
     },
+    {
+      "path": "../reporter-openweathermap",
+    },
   ],
 }
