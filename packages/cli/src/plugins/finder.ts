@@ -21,6 +21,7 @@ function validatePluginID(pluginID: string): PluginDescriptor {
     const groups = result?.groups;
 
     if (!groups) {
+        // eslint-disable-next-line @typescript-eslint/no-throw-literal
         throw new PluginError(`Invalid plugin ID given: '${pluginID}'`, pluginID);
     }
 
@@ -49,6 +50,7 @@ export default async function loadPlugin<PluginType>({
     const pluginLoader = pluginLoaders[prefix];
 
     if (!pluginLoader) {
+        // eslint-disable-next-line @typescript-eslint/no-throw-literal
         throw new PluginError(`Unrecognized plugin prefix: '${prefix}'`, pluginID);
     }
 
