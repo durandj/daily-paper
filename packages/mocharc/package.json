@@ -18,5 +18,8 @@
   "dependencies": {
     "ts-node": "^9.1.1",
     "tsconfig-paths": "^3.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
