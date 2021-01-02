@@ -1,0 +1,24 @@
+{
+  "extends": "@daily-paper/tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "@daily-paper/micro-frontend/*": [
+        "./src/*",
+      ],
+    },
+    "lib": [
+      "DOM",
+      "ES2020",
+      "ESNext",
+    ],
+    "jsx": "react",
+  },
+  "references": [
+    {
+      "path": "../core",
+    },
+  ],
+}

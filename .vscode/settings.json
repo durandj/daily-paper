@@ -6,7 +6,8 @@
         "earljs",
         "mocharc",
         "openweathermap",
-        "typestrict"
+        "typestrict",
+        "unmount"
     ],
     "npm.packageManager": "pnpm"
 }

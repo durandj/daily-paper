@@ -3,8 +3,8 @@ module.exports = {
         "ts-node/register/transpile-only",
         "tsconfig-paths/register",
     ],
-    extension: ["ts"],
-    watchExtensions: ["ts"],
+    extension: ["ts", "tsx"],
+    watchExtensions: ["ts", "tsx"],
     parallel: true,
     fullTrace: true,
 };
