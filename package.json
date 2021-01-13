@@ -16,12 +16,14 @@
     "publish": "multi-semantic-release"
   },
   "devDependencies": {
-    "@qiwi/multi-semantic-release": "^3.9.5"
+    "@qiwi/multi-semantic-release": "^3.12.3"
   },
   "workspaces": [
     "packages/*"
   ],
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
