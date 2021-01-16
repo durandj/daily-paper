@@ -2,10 +2,8 @@ import { expect } from "earljs";
 import httpStatusCodes from "http-status-codes";
 import { beforeEach, describe, it } from "mocha";
 
+import { Coordinate, createMockCoordinate } from "@daily-paper/common-weather";
 import { PaperError } from "@daily-paper/core";
-
-import { createMockCoordinate } from "@daily-paper/reporter-openweathermap/mocks";
-import { Coordinate } from "@daily-paper/reporter-openweathermap/types";
 
 import { ForecastFilter } from "./client";
 import { OpenWeatherMapClientImpl } from "./implementation";

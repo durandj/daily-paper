@@ -1,0 +1,14 @@
+/src
+
+.env
+.eslintrc.js
+.mocharc.js
+.prettierrc.js
+tsconfig.json
+build/**/testSetup.{d.ts,js}
+
+*.md
+*.spec.{d.ts,js}
+*.test.{d.ts,js}
+*.tgz
+*.tsbuildinfo

@@ -5,18 +5,16 @@
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
-      "@daily-paper/reporter-openweathermap/*": [
+      "@daily-paper/common-weather/*": [
         "./src/*",
       ],
     },
+    "lib": [
+      "ES2020",
+      "ESNext",
+    ],
   },
   "references": [
-    {
-      "path": "../common-weather",
-    },
-    {
-      "path": "../core",
-    },
     {
       "path": "../test-utils",
     },

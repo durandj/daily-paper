@@ -1,11 +1,7 @@
 import { addDays, addHours, addMinutes, getUnixTime } from "date-fns";
 
-import { createMockCoordinate } from "@daily-paper/reporter-openweathermap/mocks";
-import {
-    randomChoice,
-    randomFloat,
-    randomInt,
-} from "@daily-paper/reporter-openweathermap/testUtils";
+import { createMockCoordinate } from "@daily-paper/common-weather";
+import { randomChoice, randomFloat, randomInt } from "@daily-paper/test-utils";
 
 import { Forecast } from "./types";
 

@@ -4,11 +4,12 @@ import { describe, it } from "mocha";
 import path from "path";
 import { createLogger, Logger } from "winston";
 
+import { createMockCoordinate, WeatherReport } from "@daily-paper/common-weather";
+
 import { Forecast, ForecastOptions } from "./client";
 import { createMockForecast } from "./client/mocks";
-import { createMockCoordinate } from "./mocks";
 import { WeatherReporterOptions } from "./options";
-import weatherReporter, { WeatherReport } from "./reporter";
+import weatherReporter from "./reporter";
 
 async function loadTestData<Type>(filePath: string): Promise<Type> {
     const data = await fs.promises.readFile(filePath);
