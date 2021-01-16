@@ -1,8 +1,8 @@
-import { PaperError, Report, Reporter, ReporterContext } from "@daily-paper/core";
+import { WeatherCondition, WeatherReport } from "@daily-paper/common-weather";
+import { PaperError, Reporter, ReporterContext } from "@daily-paper/core";
 
 import { createClient, OpenWeatherMapClient } from "./client";
 import { validateReporterConfig } from "./options";
-import { Coordinate } from "./types";
 import { unixTimeToISO8601 } from "./units";
 
 interface WeatherReporterContext extends ReporterContext {
@@ -16,23 +16,6 @@ function getClient(context: WeatherReporterContext, apiKey: string): OpenWeather
 
     return createClient({ apiKey });
 }
-
-type WeatherCondition =
-    | "thunderstorm"
-    | "drizzle"
-    | "rain"
-    | "snow"
-    | "mist"
-    | "smoke"
-    | "haze"
-    | "dust"
-    | "fog"
-    | "sand"
-    | "ash"
-    | "squall"
-    | "tornado"
-    | "clear"
-    | "clouds";
 
 const weatherConditionMapping: Record<string, WeatherCondition> = {
     Thunderstorm: "thunderstorm",
@@ -59,63 +42,6 @@ function lookupWeatherCondition(value: string): WeatherCondition {
     }
 
     return condition;
-}
-
-type DateTimeString = string;
-type Percentage = number;
-
-interface Temperature {
-    unit: "metric" | "imperial";
-    value: number;
-}
-
-export interface WeatherReport extends Report {
-    location: Coordinate;
-    today: {
-        byTheHour: {
-            time: DateTimeString;
-            temperature: Temperature;
-            feelsLike: Temperature;
-            humidity: Percentage;
-            chanceOfRain: Percentage;
-            conditions: {
-                weather: WeatherCondition;
-                description: string;
-            }[];
-        }[];
-        sunrise: DateTimeString;
-        sunset: DateTimeString;
-        alerts: {
-            sender: string;
-            event: string;
-            description: string;
-            startTime: DateTimeString;
-            endTime: DateTimeString;
-        }[];
-    };
-    upcoming: {
-        date: DateTimeString;
-        sunrise: DateTimeString;
-        sunset: DateTimeString;
-        temperatures: {
-            morning: Temperature;
-            day: Temperature;
-            evening: Temperature;
-            night: Temperature;
-            minimum: Temperature;
-            maximum: Temperature;
-        };
-        feelsLike: {
-            morning: Temperature;
-            day: Temperature;
-            evening: Temperature;
-            night: Temperature;
-        };
-        conditions: {
-            weather: WeatherCondition;
-            description: string;
-        }[];
-    }[];
 }
 
 const weatherReporter: Reporter<WeatherReporterContext> = async (

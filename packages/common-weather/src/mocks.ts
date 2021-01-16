@@ -1,4 +1,5 @@
-import { randomInt } from "./testUtils";
+import { randomInt } from "@daily-paper/test-utils";
+
 import { Coordinate } from "./types";
 
 // eslint-disable-next-line import/prefer-default-export

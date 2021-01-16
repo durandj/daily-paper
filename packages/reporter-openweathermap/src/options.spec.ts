@@ -1,8 +1,9 @@
 import { expect } from "earljs";
 import { describe, it } from "mocha";
 
+import { createMockCoordinate } from "@daily-paper/common-weather";
+
 import { validateReporterConfig } from "./options";
-import { createMockCoordinate } from "./mocks";
 
 describe("options", (): void => {
     [

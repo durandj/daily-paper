@@ -1,6 +1,5 @@
+import { Coordinate } from "@daily-paper/common-weather";
 import { createSchemaValidator, SchemaType, validateConfig } from "@daily-paper/core";
-
-import { Coordinate } from "./types";
 
 export interface WeatherReporterOptions {
     apiKey: string;

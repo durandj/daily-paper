@@ -15,6 +15,18 @@ module.exports = {
     ignorePatterns: [".eslintrc.js"],
     rules: {
         "@typescript-eslint/lines-between-class-members": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": [
+                    "**/*mocks.{ts,tsx}",
+                    "**/*spec.{ts,tsx}",
+                    "**/*test.{ts,tsx}",
+                    "**/*stories.{ts,tsx}",
+                ],
+            },
+        ],
+        "react/jsx-indent": "off",
         "react/static-property-placement": "off",
     },
 }

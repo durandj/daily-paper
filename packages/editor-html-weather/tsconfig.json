@@ -5,20 +5,18 @@
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
-      "@daily-paper/reporter-openweathermap/*": [
+      "@daily-paper/editor-html-weather/*": [
         "./src/*",
       ],
     },
+    "jsx": "react",
   },
   "references": [
-    {
-      "path": "../common-weather",
-    },
     {
       "path": "../core",
     },
     {
-      "path": "../test-utils",
+      "path": "../micro-frontend",
     },
   ],
 }

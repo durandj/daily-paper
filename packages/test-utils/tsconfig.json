@@ -1,0 +1,17 @@
+{
+  "extends": "@daily-paper/tsconfig",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "@daily-paper/test-utils/*": [
+        "./src/*",
+      ],
+    },
+    "lib": [
+      "ES2020",
+      "ESNext",
+    ],
+  },
+}

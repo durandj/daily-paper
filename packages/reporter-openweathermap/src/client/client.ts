@@ -1,4 +1,4 @@
-import { Coordinate } from "@daily-paper/reporter-openweathermap/types";
+import { Coordinate } from "@daily-paper/common-weather";
 
 import { Forecast } from "./types";
 
