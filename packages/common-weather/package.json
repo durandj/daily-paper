@@ -28,7 +28,7 @@
     "@daily-paper/mocharc": "workspace:^0.0.0",
     "@daily-paper/test-utils": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
-    "eslint": "^7.16.0",
+    "eslint": "^7.18.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.1.3"
   },
