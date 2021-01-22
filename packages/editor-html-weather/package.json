@@ -22,6 +22,7 @@
     "storybook": "start-storybook"
   },
   "dependencies": {
+    "@daily-paper/common-weather": "workspace:^0.0.0",
     "@daily-paper/micro-frontend": "workspace:^0.0.0",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",

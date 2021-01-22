@@ -1,9 +1,9 @@
 import { WeatherCondition, WeatherReport } from "@daily-paper/common-weather";
 import { PaperError, Reporter, ReporterContext } from "@daily-paper/core";
+import { unixTimeToISO8601 } from "@daily-paper/units";
 
 import { createClient, OpenWeatherMapClient } from "./client";
 import { validateReporterConfig } from "./options";
-import { unixTimeToISO8601 } from "./units";
 
 interface WeatherReporterContext extends ReporterContext {
     client?: OpenWeatherMapClient;
@@ -18,21 +18,21 @@ function getClient(context: WeatherReporterContext, apiKey: string): OpenWeather
 }
 
 const weatherConditionMapping: Record<string, WeatherCondition> = {
-    Thunderstorm: "thunderstorm",
-    Drizzle: "drizzle",
-    Rain: "rain",
-    Snow: "snow",
-    Mist: "mist",
-    Smoke: "smoke",
-    Haze: "haze",
-    Dust: "dust",
-    Fog: "fog",
-    Sand: "sand",
-    Ash: "ash",
-    Squall: "squall",
-    Tornado: "tornado",
-    Clear: "clear",
-    Clouds: "clouds",
+    Thunderstorm: WeatherCondition.thunderstorm,
+    Drizzle: WeatherCondition.drizzle,
+    Rain: WeatherCondition.rain,
+    Snow: WeatherCondition.snow,
+    Mist: WeatherCondition.mist,
+    Smoke: WeatherCondition.smoke,
+    Haze: WeatherCondition.haze,
+    Dust: WeatherCondition.dust,
+    Fog: WeatherCondition.fog,
+    Sand: WeatherCondition.sand,
+    Ash: WeatherCondition.ash,
+    Squall: WeatherCondition.squall,
+    Tornado: WeatherCondition.tornado,
+    Clear: WeatherCondition.clear,
+    Clouds: WeatherCondition.clouds,
 };
 
 function lookupWeatherCondition(value: string): WeatherCondition {
