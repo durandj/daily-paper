@@ -5,7 +5,7 @@
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
-      "@daily-paper/common-weather/*": [
+      "@daily-paper/units/*": [
         "./src/*",
       ],
     },
@@ -14,12 +14,4 @@
       "ESNext",
     ],
   },
-  "references": [
-    {
-      "path": "../core",
-    },
-    {
-      "path": "../test-utils",
-    },
-  ],
 }

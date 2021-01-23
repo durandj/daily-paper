@@ -24,13 +24,13 @@ jobs:
           npm install --global pnpm
           pnpm install
 
-      - name: Run linter
-        run: |
-          pnpm run --recursive lint
-
       - name: Build
         run: |
           pnpm run --recursive build
+
+      - name: Run linter
+        run: |
+          pnpm run --recursive lint
 
       - name: Tests
         env:

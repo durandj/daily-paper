@@ -13,22 +13,23 @@ export interface Temperature {
     value: number;
 }
 
-export type WeatherCondition =
-    | "thunderstorm"
-    | "drizzle"
-    | "rain"
-    | "snow"
-    | "mist"
-    | "smoke"
-    | "haze"
-    | "dust"
-    | "fog"
-    | "sand"
-    | "ash"
-    | "squall"
-    | "tornado"
-    | "clear"
-    | "clouds";
+export enum WeatherCondition {
+    thunderstorm = "thunderstorm",
+    drizzle = "drizzle",
+    rain = "rain",
+    snow = "snow",
+    mist = "mist",
+    smoke = "smoke",
+    haze = "haze",
+    dust = "dust",
+    fog = "fog",
+    sand = "sand",
+    ash = "ash",
+    squall = "squall",
+    tornado = "tornado",
+    clear = "clear",
+    clouds = "clouds",
+}
 
 export interface WeatherReport extends Report {
     location: Coordinate;

@@ -27,6 +27,8 @@ module.exports = {
             },
         ],
         "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
         "react/static-property-placement": "off",
+        "no-plusplus": "off",
     },
 }

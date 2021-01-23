@@ -1,6 +1,24 @@
 import { randomInt } from "./numeric";
 
-// eslint-disable-next-line import/prefer-default-export
-export function randomChoice<Type>(choices: Type[]): Type {
-    return choices[randomInt({ max: choices.length })] as Type;
+type Enumeration<Type> = Record<string, Type>;
+
+export function randomChoice<Type>(choices: Type[] | Enumeration<Type>): Type {
+    if (Array.isArray(choices)) {
+        return choices[randomInt({ max: choices.length })] as Type;
+    }
+
+    return randomChoice(Object.values(choices));
+}
+
+interface RangeOpts {
+    min?: number;
+    max: number;
+}
+export function range({ min = 0, max }: RangeOpts): number[] {
+    const values = [];
+    for (let i = min; i < max; i++) {
+        values.push(i);
+    }
+
+    return values;
 }

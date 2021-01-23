@@ -4,5 +4,17 @@ declare namespace JSX {
             React.HTMLAttributes<HTMLButtonElement>,
             HTMLButtonElement
         >;
+
+        "wired-divider": React.DetailedHTMLProps<>;
+
+        "wired-textarea": React.DetailedHTMLProps<
+            React.FunctionComponent<{
+                value?: string;
+                placeholder?: string;
+                rows?: number;
+                maxrows?: number;
+                disabled?: boolean;
+            }>
+        >;
     }
 }

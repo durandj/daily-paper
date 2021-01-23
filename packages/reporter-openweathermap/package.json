@@ -26,6 +26,7 @@
   "dependencies": {
     "@daily-paper/common-weather": "workspace:^0.0.0",
     "@daily-paper/core": "workspace:^0.0.0",
+    "@daily-paper/units": "workspace:^0.0.0",
     "date-fns": "^2.16.1",
     "domexception": "^2.0.1",
     "node-fetch": "^3.0.0-beta.9"

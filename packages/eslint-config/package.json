@@ -28,7 +28,8 @@
     "eslint-plugin-sonarjs": "^0.5.0"
   },
   "peerDependencies": {
-    "eslint": "^7.15.0"
+    "eslint": "^7.15.0",
+    "prettier": "^2.2.1"
   },
   "publishConfig": {
     "access": "public"
