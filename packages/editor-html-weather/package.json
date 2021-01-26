@@ -31,7 +31,7 @@
     "wired-elements": "^2.1.2"
   },
   "devDependencies": {
-    "@daily-paper/eslint-config": "workspace:^0.0.0",
+    "@daily-paper/eslint-config-react": "workspace:^0.0.0",
     "@daily-paper/mocharc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "@storybook/cli": "^6.1.15",
