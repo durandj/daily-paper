@@ -1,0 +1,26 @@
+{
+  "name": "@daily-paper/eslint-config-react",
+  "version": "0.0.0",
+  "description": "ESLint config for Daily Paper packages using React",
+  "license": "MIT",
+  "author": "James Durand",
+  "homepage": "https://github.com/durandj/daily-paper#readme",
+  "bugs": {
+    "url": "https://github.com/durandj/daily-paper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/daily-paper.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@daily-paper/eslint-config": "workspace:^0.0.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

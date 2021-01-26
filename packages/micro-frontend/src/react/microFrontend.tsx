@@ -57,8 +57,9 @@ const MicroFrontend: FunctionComponent<Props> = ({
 
     const renderMicroFrontend = useCallback(() => {
         registry.getApp(name).mount(containerRef.current as HTMLElement, context);
-    }, [registry]);
+    }, [context, name, registry]);
 
+    const container = containerRef.current;
     useEffect(() => {
         if (document.getElementById(scriptID)) {
             renderMicroFrontend();
@@ -82,9 +83,9 @@ const MicroFrontend: FunctionComponent<Props> = ({
                 return;
             }
 
-            registry.getApp(name).unmount(containerRef.current as HTMLElement);
+            registry.getApp(name).unmount(container as HTMLElement);
         };
-    }, [name, onError, scriptID]);
+    }, [container, host, name, onError, registry, renderMicroFrontend, scriptID, scriptLoader]);
 
     return <div ref={containerRef} id={containerID} />;
 };
