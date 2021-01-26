@@ -26,6 +26,7 @@ module.exports = {
                 ],
             },
         ],
+        "react/static-property-placement": "off",
         "no-plusplus": "off",
     },
 }
