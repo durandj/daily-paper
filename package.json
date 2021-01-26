@@ -16,7 +16,7 @@
     "publish": "multi-semantic-release"
   },
   "devDependencies": {
-    "@qiwi/multi-semantic-release": "^3.12.3"
+    "@qiwi/multi-semantic-release": "^3.12.5"
   },
   "workspaces": [
     "packages/*"
