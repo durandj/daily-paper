@@ -28,6 +28,7 @@
   "devDependencies": {
     "@daily-paper/eslint-config-react": "workspace:^0.0.0",
     "@daily-paper/mocharc": "workspace:^0.0.0",
+    "@daily-paper/prettierrc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "@types/enzyme": "^3.10.8",
     "@types/jsdom": "^16.2.6",

@@ -1,0 +1,20 @@
+{
+  "name": "@daily-paper/prettierrc",
+  "version": "0.0.0",
+  "description": "Shared Prettier config for Daily Paper packages",
+  "license": "MIT",
+  "author": "James Durand",
+  "homepage": "https://github.com/durandj/daily-paper#readme",
+  "bugs": {
+    "url": "https://github.com/durandj/daily-paper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durandj/daily-paper.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}

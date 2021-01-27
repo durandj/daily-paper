@@ -32,6 +32,7 @@
   "devDependencies": {
     "@daily-paper/eslint-config": "workspace:^0.0.0",
     "@daily-paper/mocharc": "workspace:^0.0.0",
+    "@daily-paper/prettierrc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "@types/js-yaml": "^3.12.6",
     "@types/mocha": "^8.2.0",
