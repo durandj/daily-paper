@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@daily-paper/eslint-config": "workspace:^0.0.0",
+    "@daily-paper/prettierrc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.14.1",

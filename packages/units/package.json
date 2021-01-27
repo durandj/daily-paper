@@ -40,6 +40,7 @@
   "devDependencies": {
     "@daily-paper/eslint-config": "workspace:^0.0.0",
     "@daily-paper/mocharc": "workspace:^0.0.0",
+    "@daily-paper/prettierrc": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "earljs": "^0.1.10",
     "eslint": "^7.18.0",

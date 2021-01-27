@@ -26,6 +26,7 @@
   "devDependencies": {
     "@daily-paper/eslint-config": "workspace:^0.0.0",
     "@daily-paper/mocharc": "workspace:^0.0.0",
+    "@daily-paper/prettierrc": "workspace:^0.0.0",
     "@daily-paper/test-utils": "workspace:^0.0.0",
     "@daily-paper/tsconfig": "workspace:^0.0.0",
     "date-fns": "^2.16.1",
